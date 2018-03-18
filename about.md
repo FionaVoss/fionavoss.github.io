@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a software developer based in San Diego, CA.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I work on lots of different things at [Ceatus Media Group](http://www.ceatus.com/) using Ruby on Rails.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I got my start in the industry at [LEARN Academy's web development bootcamp](https://www.learnacademy.org/).
 
+Right now I'm working on a second bachelor's degree in computer science from [Oregon State University](http://eecs.oregonstate.edu/online-cs-students).
 
-[jekyll-organization]: https://github.com/jekyll
+## Find Me Around the Web
+
+* [Github](https://github.com/FionaVoss)
+* [Twitter](https://twitter.com/fionajvoss)
+* [LinkedIn](https://www.linkedin.com/in/fionavoss/)
