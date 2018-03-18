@@ -27,6 +27,9 @@ layout: default
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
+          {% if post.content contains site.excerpt_separator %}
+            <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+          {% endif %}
         {%- endif -%}
       </li>
       {%- endfor -%}
