@@ -12,10 +12,12 @@
       </a>
     </h3>
   {%- endif -%}
-  {%- if site.show_excerpts -%}
+  {%- if post.categories contains 'articles' -%}
     {{ post.excerpt }}
     {% if post.content contains site.excerpt_separator %}
       <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
     {% endif %}
+  {% else %}
+    {{ post.content }}
   {%- endif -%}
 </li>
