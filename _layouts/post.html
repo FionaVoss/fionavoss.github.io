@@ -27,3 +27,20 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<aside>
+  {%- for tag in page.tags -%}
+    <h3>More posts about {{ tag }}</h3>
+    <ul>
+      {% for post in site.tags[tag] %}
+        {% if post.url != page.url %}
+          <li>
+            <a href="{{ post.url | absolute_url }}">
+              {{ post.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {%- endfor -%}
+</aside>
