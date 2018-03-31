@@ -13,3 +13,7 @@ h3 a, h3 a:visited {
 .post-meta a {
   color: #828282;
 }
+a.current {
+  text-decoration: underline;
+  font-weight: bold;
+}
