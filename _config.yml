@@ -21,6 +21,7 @@ url: "http://fionavoss.blog" # the base hostname & protocol for your site, e.g. 
 twitter_username: fionajvoss
 github_username:  fionavoss
 show_excerpts: true
+# permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Build settings
 markdown: kramdown
