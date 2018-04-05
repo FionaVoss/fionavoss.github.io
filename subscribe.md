@@ -3,6 +3,10 @@ layout: page
 title: Subscribe
 permalink: /subscribe/
 ---
-- [micro.blog](https://micro.blog/fiona)
+# Social Media
+- [Micro.blog](https://micro.blog/fiona)
 - [Twitter](https://twitter.com/fionajvoss)
-- [RSS]({% link feed.xml %})
+
+# RSS
+- [All posts]({% link feed.xml %})
+- [Articles only]({% link articles.xml %})
