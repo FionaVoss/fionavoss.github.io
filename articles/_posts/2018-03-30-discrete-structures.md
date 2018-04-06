@@ -3,6 +3,7 @@ layout: post
 title: "Discrete Structures (CS 225)"
 date: '2018-03-30T23:26:13.673Z'
 tags: OSU
+redirect_from: /articles/2018/03/30/discrete-structures.html
 ---
 
 I recently finished taking Discrete Structures, my second course in [Oregon State University's post-baccalaureate computer science program](https://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science/). This is a math course, what most universities would call discrete math. There was no programming involved, although the textbook and lectures occasionally explained how topics related to computing.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My Experience Taking Intro to Computer Science As A Web Developer and Bootcamp Grad
-permalink: '/2018/01/07/intro-to-cs/'
 tags: OSU
 ---
 This past fall, I took CS 165: Accelerated Introduction to Computer Science, online from Oregon State University. It was my first course as a student in [OSU's post-baccalaureate computer science program](http://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science/), through which I'll be earning my second bachelor's degree over the next 2-3 years.
