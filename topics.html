@@ -1,0 +1,20 @@
+---
+layout: page
+title: Topics
+permalink: /topics/
+---
+{% assign sorted_tags = (site.tags | sort:0) %}
+{% for tag in sorted_tags %}
+  {% assign tag_name = tag | first %}
+  {% assign posts = tag | last %}
+  {{ tag_name }}
+  <ul>
+  {% for post in posts %}
+    {% if post.tags contains tag_name %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
