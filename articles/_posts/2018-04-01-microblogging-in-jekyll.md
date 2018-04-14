@@ -5,6 +5,8 @@ redirect_from: /articles/2018/04/01/microblogging-in-jekyll.html
 tags: Jekyll
 ---
 
+_**Note**: I have made some changes to my site since I published this post, so some of this information is out of date. I'm now listing only articles on my home page, and notes are only shown on the Notes page._
+
 A microblog is a blog that features short, usually untitled posts. Until recently, I thought that Twitter and Tumblr were the only ways anybody microblogged nowadays. Turns out, there is a vibrant community of [IndieWeb](https://indieweb.org/) enthusiasts microblogging on their own websites. So lately, I've been setting up my own site for microblogging.  
 
 I've added a [Notes]({% link notes.html %}) page for microposts and an [Articles](/articles) page for my longer posts, while my [home page]({% link index.html %}) shows both types of posts. I can easily post to my Jekyll blog from anywhere using my phone, and my posts automatically get cross-posted to Twitter.
