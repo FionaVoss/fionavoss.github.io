@@ -7,7 +7,7 @@ tags: Jekyll
 
 A microblog is a blog that features short, usually untitled posts. Until recently, I thought that Twitter and Tumblr were the only ways anybody microblogged nowadays. Turns out, there is a vibrant community of [IndieWeb](https://indieweb.org/) enthusiasts microblogging on their own websites. So lately, I've been setting up my own site for microblogging.  
 
-I've added a [Notes]({% link notes.html %}) page for microposts and an [Articles]({% link articles.html %}) page for my longer posts, while my [home page]({% link index.md %}) shows both types of posts. I can easily post to my Jekyll blog from anywhere using my phone, and my posts automatically get cross-posted to Twitter.
+I've added a [Notes]({% link notes.html %}) page for microposts and an [Articles](/articles) page for my longer posts, while my [home page]({% link index.html %}) shows both types of posts. I can easily post to my Jekyll blog from anywhere using my phone, and my posts automatically get cross-posted to Twitter.
 
 Why do this? Microblogging on my own site gives me more flexibility than using Twitter. I don't have to obey Twitter's character limits and I can mark up my posts however I want. I control the design of my own site, and I choose whether it has ads or not.
 
