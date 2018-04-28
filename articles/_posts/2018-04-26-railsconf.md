@@ -2,6 +2,7 @@
 layout: post
 title: RailsConf 2018
 date: 2018-04-26 18:30:00 -0700
+tags: RailsConf
 ---
 Last week I attended RailsConf in Pittsburgh. It was my first tech conference and an all-around amazing experience. I left feeling grateful to work with Rails, and excited for its future.
 
