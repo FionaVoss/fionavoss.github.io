@@ -45,5 +45,31 @@ layout: default
   {%- endfor -%}
 </aside>
 
+<h3>Webmentions</h3>
+<style>
+  .webmention-mention {
+    padding-left: 85px;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: auto;
+  }
+  .webmention-author img {
+    position: absolute;
+    left: 0;
+    max-width: 75px;
+    max-height: 75px;
+  }
+</style>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
 <div class="just-comments" data-apikey="4eada853-2aea-4aff-ac8e-df13f6556de0"></div>
 <script async src="https://just-comments.com/w.js"></script>
