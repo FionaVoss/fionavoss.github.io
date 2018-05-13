@@ -17,3 +17,14 @@ Right now I'm working on a second bachelor's degree in computer science from [Or
 * [Github](https://github.com/FionaVoss)
 * [Twitter](https://twitter.com/fionajvoss)
 * [LinkedIn](https://www.linkedin.com/in/fionavoss/)
+
+## This Blog's Stack
+
+* [Source code here](https://github.com/FionaVoss/fionavoss.github.io)
+* Built with Jekyll
+* Hosted on GitHub Pages
+* Accepts and displays [Webmentions](https://indieweb.org/Webmention) using [A WebMention Endpoint](https://webmention.herokuapp.com/) 
+* Webmentions sent from Twitter using [Bridgy](https://brid.gy/)
+* [Micropub](https://indieweb.org/Micropub) endpoint is [webpage-micropub-to-github](https://github.com/voxpelli/webpage-micropub-to-github)
+* Microposts composed in [Quill](https://quill.p3k.io/new) and the [Micro.blog](https://micro.blog/) iOS app
+* Long-form posts composed in [Atom](https://atom.io/)
