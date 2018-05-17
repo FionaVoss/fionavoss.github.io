@@ -1,0 +1,245 @@
+---
+layout: none
+title: Intro To Elixir
+permalink: /slides/intro-to-elixir/
+exclude: true
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+        color: #F0F0F0
+       }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-slide-content {
+        background-color: purple
+      }
+      a {
+        color: lightblue
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Intro to Elixir
+
+### Presented by Fiona Voss
+---
+
+# About me
+
+- Software engineer at Ceatus Media Group
+
+- Ruby on Rails developer
+
+- Elixir enthusiast
+
+- LEARN aluma (2016 Bravo)
+
+- Former ESL teacher & art history major
+
+---
+
+# Objectives
+
+- Learn what Elixir is like and why some developers choose it
+
+- Write some code
+
+- Go home prepared to continue learning
+
+--
+
+# Agenda
+- Presentation
+
+- Code challenges
+
+- Wrap-up
+
+---
+
+# What is Elixir?
+
+- General purpose, functional programming language
+
+--
+
+### Applications
+
+- Web applications (Phoenix)
+
+- Embedded software (Nerves)
+
+--
+
+### What is functional programming?
+
+- Pure functions, no side effects
+
+- Calling the same function with the same arguments always produces the same result
+
+- Can make it easier to understand and predict the behavior of a program
+
+---
+
+# Why use Elixir?
+
+### Technical reasons
+
+- Speed and concurrency of Erlang
+
+--
+
+- Developer experience of Ruby
+
+--
+
+### Intellectual challenge
+
+- Very different way of thinking than OOP
+
+    - Christian Koch, RailsConf 2017: "Rails to Phoenix: How Elixir can level-you-up in Rails" (https://youtu.be/fjrD0_OempI)
+
+---
+
+class: center, middle
+
+# Code samples
+
+---
+
+# Hello world
+
+### Simplest
+
+```elixir
+IO.puts "Hello World"
+```
+
+--
+
+### Defining a module
+
+```elixir
+defmodule Hello do
+  def world do
+    IO.puts "Hello World"
+  end
+
+  def san_diego do
+    IO.puts "Hello San Diego"
+  end
+end
+
+Hello.world
+Hello.san_diego
+```
+
+---
+
+# Fibonacci sequence
+
+0, 1, 1, 2, 3, 5, 8, 13, ...
+
+```elixir
+defmodule Fun do
+  def fib(0), do: 0
+  def fib(1), do: 1
+  def fib(n) do
+    fib(n-2) + fib(n-1)
+  end
+end
+
+Fun.fib(0) #=> 0
+Fun.fib(1) #=> 1
+Fun.fib(2) #=> 1
+Fun.fib(3) #=> 2
+```
+
+
+Source: <https://en.wikipedia.org/wiki/Elixir_(programming_language)>
+
+--
+
+- Less reliant on if/else than Ruby
+
+--
+
+- More reliant on recursion
+
+---
+
+# Code challenges
+
+Elixir Koans (https://github.com/elixirkoans/elixir-koans)
+
+---
+
+# Resources
+
+Official Website (https://elixir-lang.org/)
+
+Code School (https://www.codeschool.com/)
+- Try Elixir (free)
+- Mixing It Up With Elixir (paid)
+- On Fire With Phoenix (paid)
+
+Code Wars (https://www.codewars.com/)
+
+---
+
+# Resources
+
+Dave Thomas, *Programming Elixir 1.3*
+
+José Valim, "Elixir - A modern approach to programming for the Erlang VM" (https://vimeo.com/53221562)
+
+"Elixir for Rubyists" (https://robots.thoughtbot.com/elixir-for-rubyists)
+
+"How We Replaced React with Phoenix" (https://robots.thoughtbot.com/how-we-replaced-react-with-phoenix)
+
+---
+
+# These Slides
+
+Find them at [fionavoss.blog/slides/](http://fionavoss.blog/slides/)
+
+Built with Remark (https://github.com/gnab/remark)
+
+---
+
+# Keep in Touch
+
+[fionavoss.blog](http://fionavoss.blog)
+
+[twitter.com/fionajvoss](http://twitter.com/fionajvoss)
+
+[github.com/fionavoss](http://github.com/fionavoss)
+
+[linkedin.com/in/fionavoss](http://linkedin.com/in/fionavoss)
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
