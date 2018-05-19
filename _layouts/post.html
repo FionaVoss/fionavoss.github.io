@@ -30,18 +30,30 @@ layout: default
 
 <aside>
   {%- for tag in page.tags -%}
-    <h3>More posts about {{ tag }}</h3>
-    <ul>
-      {% for post in site.tags[tag] %}
-        {% if post.url != page.url %}
-          <li>
-            <a href="{{ post.url | absolute_url }}">
-              {{ post.title }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+    <!-- determine whether there are additional posts to show -->
+    {% assign moreThanOneInCategory = false %}
+    {% assign posts = site.tags[tag] %}
+    {% for post in posts %}
+      {% if forloop.length > 1 %}
+        {% assign moreThanOneInCategory = true %}
+      {% endif %}
+    {% endfor %}
+
+    <!-- if any, show posts with same tag -->
+    {% if moreThanOneInCategory == true %}
+      <h3>More posts about {{ tag }}</h3>
+      <ul>
+        {% for post in posts %}
+          {% if post.url != page.url %}
+            <li>
+              <a href="{{ post.url | absolute_url }}">
+                {{ post.title }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
   {%- endfor -%}
 </aside>
 

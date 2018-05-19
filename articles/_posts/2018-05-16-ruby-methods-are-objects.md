@@ -2,6 +2,7 @@
 layout: post
 title: "Ruby methods are objects: a debugging tip"
 date: 2018-05-16 19:10:00 -0700
+tags: Ruby
 ---
 Today I was debugging some RSpec tests that were failing intermittently. Eventually I narrowed the issue down to Devise's `active_for_authentication?` method, which was sometimes returning true and sometimes false.
 

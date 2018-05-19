@@ -7,7 +7,7 @@ permalink: /topics/
 {% for tag in sorted_tags %}
   {% assign tag_name = tag | first %}
   {% assign posts = tag | last %}
-  {{ tag_name }}
+  <h4>{{ tag_name }}</h4>
   <ul>
   {% for post in posts %}
     {% if post.tags contains tag_name %}
