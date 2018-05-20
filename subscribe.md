@@ -2,6 +2,7 @@
 layout: page
 title: Subscribe
 permalink: /subscribe/
+description: Links to RSS feeds and social networks where you can follow me.
 ---
 # Social Media
 - [Micro.blog](https://micro.blog/fiona)
