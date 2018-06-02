@@ -47,7 +47,11 @@ layout: default
           {% if post.url != page.url %}
             <li>
               <a href="{{ post.url | absolute_url }}">
-                {{ post.title }}
+                {% if post.title == "" %}
+                  {{ post.content | strip_html | truncatewords: 10 }}
+                {% else %}
+                  {{ post.title }}
+                {% endif %}
               </a>
             </li>
           {% endif %}
