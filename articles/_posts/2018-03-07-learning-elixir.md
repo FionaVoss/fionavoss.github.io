@@ -1,7 +1,6 @@
 ---
 layout: post
 title: One Month of Learning Elixir
-redirect_from: /2018/03/07/learning-elixir/
 tags: Elixir
 ---
 
