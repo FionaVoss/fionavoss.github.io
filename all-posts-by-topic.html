@@ -1,0 +1,33 @@
+---
+layout: page
+title: All Posts by Topic
+permalink: /all-posts-by-topic/
+description: Articles and notes organized by topic.
+exclude: true
+---
+<p>
+  {{ page.description }}
+  <a href="{% link topics.html %}">Show articles only.</a>
+</p>
+
+{% assign sorted_tags = (site.tags | sort:0) %}
+{% for tag in sorted_tags %}
+  {% assign tag_name = tag | first %}
+  {% assign posts = tag | last %}
+  <h4>{{ tag_name }}</h4>
+  <ul>
+  {% for post in posts %}
+    {% if post.tags contains tag_name %}
+    <li>
+      <a href="{{ post.url }}">
+        {% if post.title == "" %}
+          {{ post.content | strip_html | truncate: 80 }}
+        {% else %}
+          {{ post.title }}
+        {% endif %}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}

@@ -4,24 +4,38 @@ title: Topics
 permalink: /topics/
 description: Articles organized by topic.
 ---
+<p>
+  {{ page.description }}
+  <a href="{% link all-posts-by-topic.html %}">Show articles and notes.</a>
+</p>
+
 {% assign sorted_tags = (site.tags | sort:0) %}
 {% for tag in sorted_tags %}
   {% assign tag_name = tag | first %}
   {% assign posts = tag | last %}
-  <h4>{{ tag_name }}</h4>
-  <ul>
-  {% for post in posts %}
+  {% assign any_articles = false %}
+  {% for post in site.categories['articles'] %}
     {% if post.tags contains tag_name %}
-    <li>
-      <a href="{{ post.url }}">
-        {% if post.title == "" %}
-          {{ post.content | strip_html | truncatewords: 10 }}
-        {% else %}
-          {{ post.title }}
-        {% endif %}
-      </a>
-    </li>
+      {% assign any_articles = true %}
     {% endif %}
   {% endfor %}
-  </ul>
+
+  {% if any_articles == true %}
+    <h4>{{ tag_name }}</h4>
+    <ul>
+    {% for post in site.categories['articles'] %}
+      {% if post.tags contains tag_name %}
+      <li>
+        <a href="{{ post.url }}">
+          {% if post.title == "" %}
+            {{ post.content | strip_html | truncate: 80 }}
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}
 {% endfor %}
