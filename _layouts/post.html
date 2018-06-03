@@ -41,13 +41,17 @@ layout: default
 
     <!-- if any, show posts with same tag -->
     {% if moreThanOneInCategory == true %}
-      <h3>More posts about {{ tag }}</h3>
+      <h3>More posts about {{ tag }}:</h3>
       <ul>
         {% for post in posts %}
           {% if post.url != page.url %}
             <li>
               <a href="{{ post.url | absolute_url }}">
-                {{ post.title }}
+                {% if post.title == "" %}
+                  {{ post.content | strip_html | truncate: 80 }}
+                {% else %}
+                  {{ post.title }}
+                {% endif %}
               </a>
             </li>
           {% endif %}
