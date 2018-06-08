@@ -17,3 +17,8 @@ RailsConf, Pittsburgh, PA, April 2018
 
 **Getting Started with Jekyll**  
 SD Ruby Monthly Meeting, San Diego, CA, February 2018
+
+# Podcasts
+
+**Micro Monday**  
+["Episode 13: @fiona"](https://monday.micro.blog/2018/06/04/episode-fiona.html), June 4, 2018
