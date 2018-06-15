@@ -41,8 +41,8 @@ layout: default
 
     <!-- if any, show posts with same tag -->
     {% if moreThanOneInCategory == true %}
-      <h3>More posts about {{ tag }}:</h3>
-      <ul>
+      <h3 class="topic">More posts about {{ tag }}:</h3>
+      <ul class="related-posts">
         {% for post in posts %}
           {% if post.url != page.url %}
             <li>

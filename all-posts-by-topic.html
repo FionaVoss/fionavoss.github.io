@@ -14,8 +14,8 @@ exclude: true
 {% for tag in sorted_tags %}
   {% assign tag_name = tag | first %}
   {% assign posts = tag | last %}
-  <h4>{{ tag_name }}</h4>
-  <ul>
+  <h4 class="topic">{{ tag_name }}</h4>
+  <ul class="related-posts">
   {% for post in posts %}
     {% if post.tags contains tag_name %}
     <li>

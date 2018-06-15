@@ -15,7 +15,7 @@
   {%- if post.categories contains 'articles' -%}
     {{ post.excerpt }}
     {% if post.content contains site.excerpt_separator %}
-      <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more</a>
     {% endif %}
   {% else %}
     {{ post.content }}
