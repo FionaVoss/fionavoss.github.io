@@ -23,7 +23,7 @@ exclude: true
         {% if post.title == "" %}
           {{ post.content | strip_html | truncate: 80 }}
         {% else %}
-          {{ post.title }}
+          {{ post.title }} 📝
         {% endif %}
       </a>
     </li>
@@ -31,3 +31,20 @@ exclude: true
   {% endfor %}
   </ul>
 {% endfor %}
+
+<h4 class="topic">Uncategorized</h4>
+<ul class="related-posts">
+  {% for post in site.posts %}
+    {% if post.tags == empty %}
+      <li>
+        <a href="{{ post.url }}">
+          {% if post.title == "" %}
+            {{ post.content | strip_html | truncate: 80 }}
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
