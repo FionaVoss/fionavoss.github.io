@@ -61,15 +61,17 @@ layout: default
       </ul>
     {% endif %}
   {%- endfor -%}
-  {% if showingAnyTags %}
-    <a href="{% link all-posts-by-topic.html %}" class="all-topics">
-      See all topics
-    </a>
-  {% else %}
-    <a href="{% link notes.html %}" class="all-topics">
-      See more notes
-    </a>
-  {% endif %}
+  <p>
+    {% if showingAnyTags %}
+      <a href="{% link all-posts-by-topic.html %}" class="all-topics">
+        See all topics
+      </a>
+    {% else %}
+      <a href="{% link notes.html %}" class="all-topics">
+        See more notes
+      </a>
+    {% endif %}
+  </p>
 </aside>
 
 <style>
