@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2018-06-23 21:32:00 -0700'
+date: '2018-06-24 18:24:00 -0700'
 title: 'Untitled blog posts were a game changer for my writing'
 tags: Blogging
 ---
