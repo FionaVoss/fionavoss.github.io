@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Four Stages of Understanding Git
-redirect_from: /2018/02/25/stages-of-understanding-git/
 tags: Git
 ---
 
