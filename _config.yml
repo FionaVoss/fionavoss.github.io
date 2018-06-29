@@ -32,6 +32,16 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate
+paginate: 10
+paginate_path: /posts/:num/
+header_pages:
+  - about.md
+  - articles.html
+  - elsewhere.md
+  - subscribe.md
+  - topics.html
+  - posts/index.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
