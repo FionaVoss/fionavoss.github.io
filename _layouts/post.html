@@ -66,9 +66,9 @@ layout: default
       <a href="{% link all-posts-by-topic.html %}" class="all-topics">
         See all topics
       </a>
-    {% elsif post.title == "" %}
-      <a href="{% link notes.html %}" class="all-topics">
-        See more notes
+    {% elsif page.title == "" %}
+      <a href="{% link posts/index.html %}" class="all-topics">
+        See more posts
       </a>
     {% else %}
       <a href="{% link articles.html %}" class="all-topics">
