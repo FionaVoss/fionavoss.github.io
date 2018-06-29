@@ -3,10 +3,13 @@ layout: post
 date: '2018-06-23 21:32:00 -0700'
 title: 'Computer Architecture and Assembly Language (CS 271)'
 tags: OSU
+excerpt_separator: <!--more-->
 ---
 I recently finished my third course at OSU, Computer Architecture and Assembly Language (CS 271).
 
 If you're wondering what assembly language is, I'll say more on that later, but essentially it's about as low-level as you can reasonably get with programming&mdash;one step up from writing machine language. It's not terribly practical for the vast majority of software developers today, but writing assembly teaches you a lot about how computers work.
+
+<!--more-->
 
 # Course structure
 
