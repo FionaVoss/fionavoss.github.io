@@ -1,10 +1,9 @@
 ---
 layout: post
 date: '2018-06-08T02:23:29.419Z'
-title: ''
+title: 'iOS double tap mystery solved'
 tags: JavaScript
-slug: '8609'
-category: social
+redirect_from: /2018/06/07/8609
 ---
 Fixed a fun front-end bug yesterday:
 
