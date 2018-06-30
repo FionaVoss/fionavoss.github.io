@@ -1,11 +1,10 @@
 ---
 layout: post
 date: '2018-05-02T00:46:37.992Z'
-title: ''
-slug: '2797'
-category: social
+title: 'Separating posting from consumption'
 tags:
   - 'This site'
+redirect_from: /2018/05/01/2797  
 ---
 Unanticipated benefit to [microblogging on my own site](http://fionavoss.blog/2018/04/01/microblogging-in-jekyll) and syndicating to Twitter, versus just posting in Twitter: posting is separated from consumption. When I have something on my mind, I can publish it without getting sucked into checking my feed &amp; notifications.
 

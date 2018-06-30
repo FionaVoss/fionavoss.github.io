@@ -1,10 +1,10 @@
 ---
 layout: post
 date: '2018-04-05T19:18:34.967Z'
-title: ''
-slug: '69514'
-category: social
-redirect_from: /notes/social/2018/04/05/69514.html
+title: 'When Rails is too helpful'
+redirect_from: 
+  - /notes/social/2018/04/05/69514.html
+  - /2018/04/05/69514
 tags:
   - 'Ruby on Rails'
 ---

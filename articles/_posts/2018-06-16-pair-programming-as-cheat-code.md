@@ -1,10 +1,10 @@
 ---
 layout: post
 date: '2018-06-16T22:24:40.535Z'
-title: ''
-slug: '68261'
+title: 'Pair programming as a cheat code for life'
 tags:
   - 'Pair programming'
+redirect_from: /2018/06/16/68261  
 ---
 [Sarah Mei on pair programming](https://twitter.com/sarahmei/status/973204286472507392):
 
