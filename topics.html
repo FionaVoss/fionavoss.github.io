@@ -39,3 +39,29 @@ description: Articles organized by topic.
     </ul>
   {% endif %}
 {% endfor %}
+
+{% assign any_uncategorized = false %}
+{% for post in site.categories['articles'] %}
+  {% if post.tags == empty %}
+    {% assign any_uncategorized = true %}
+  {% endif %}
+{% endfor %}
+
+{% if any_uncategorized %}
+  <h4 class="topic">Uncategorized</h4>
+  <ul class="related-posts">
+    {% for post in site.categories['articles'] %}
+      {% if post.tags == empty %}
+        <li>
+          <a href="{{ post.url }}">
+            {% if post.title == "" %}
+              {{ post.content | strip_html | truncate: 80 }}
+            {% else %}
+              {{ post.title }}
+            {% endif %}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
