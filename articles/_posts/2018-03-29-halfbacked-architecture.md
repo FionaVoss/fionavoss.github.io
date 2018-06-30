@@ -4,7 +4,7 @@ date: '2018-03-29T01:16:46.956Z'
 title: 'Halfbaked architecture'
 redirect_from: /notes/2018/03/29/4606.html
 tags:
-  - 'This site'
+  - 'Static site generators'
 ---
 *<strong>Update:</strong> This post was originally published without a title. The name "halfbaked" [was suggested](https://micro.blog/kwlblt/436679) by Micro.blog user [@kwlblt](https://micro.blog/kwlblt).*
 
