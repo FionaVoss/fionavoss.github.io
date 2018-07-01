@@ -5,9 +5,10 @@ permalink: /all-posts-by-topic/
 description: Articles and notes organized by topic.
 exclude: true
 ---
-<p>
+<p class="mb-40">
   {{ page.description }}
-  <a href="{% link topics.html %}">Show articles only.</a>
+  You can also <a href="{% link posts/index.html %}">see posts in chronological order</a>
+  or <a href="{% link topics.html %}">see just articles by topic</a>.
 </p>
 
 {% assign sorted_tags = (site.tags | sort:0) %}

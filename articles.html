@@ -4,9 +4,10 @@ title: Articles
 permalink: /articles/
 description: All of my long-form blog posts in chronological order.
 ---
-<p>
+<p class="mb-40">
   {{ page.description }}
-  <a href="{% link topics.html %}">Browse by topic.</a>
+  You can also <a href="{% link posts/index.html %}">see articles and notes</a>
+  or <a href="{% link topics.html %}">browse by topic</a>.
 </p>
 {% assign postsByYearMonth = site.categories['articles'] | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
 {% for yearMonth in postsByYearMonth %}
