@@ -2,7 +2,7 @@
 layout: post
 date: '2018-06-09T03:06:46.208Z'
 title: 'How to choose a tech stack'
-redirect_from: /2018/06/08/11206
+permalink: /2018/06/08/11206
 tags:
   - 'Developer culture'
 ---

@@ -4,7 +4,7 @@ date: '2018-06-06T04:05:55.522Z'
 title: 'When everything clicks'
 tags:
   - 'Teaching'
-redirect_from: /2018/06/05/14755
+permalink: /2018/06/05/14755
 excerpt_separator: <!--more-->
 ---
 The latest episode of Hidden Brain, [&quot;When Everything Clicks&quot;](https://www.npr.org/2018/06/04/616127481/when-everything-clicks-the-power-of-judgment-free-learning), is simply incredible. Without a doubt my favorite thing I&#39;ve heard from them.

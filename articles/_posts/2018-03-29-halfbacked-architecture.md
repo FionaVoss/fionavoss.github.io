@@ -2,7 +2,7 @@
 layout: post
 date: '2018-03-29T01:16:46.956Z'
 title: 'Halfbaked architecture'
-redirect_from: /notes/2018/03/29/4606.html
+permalink: /notes/2018/03/29/4606.html
 tags:
   - 'Static site generators'
 ---

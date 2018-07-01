@@ -2,7 +2,7 @@
 layout: post
 date: '2018-04-05T19:18:34.967Z'
 title: 'When Rails is too helpful'
-redirect_from: 
+redirect_from:
   - /notes/social/2018/04/05/69514.html
   - /2018/04/05/69514
 tags:

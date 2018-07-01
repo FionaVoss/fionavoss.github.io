@@ -3,7 +3,7 @@ layout: post
 date: '2018-06-08T02:23:29.419Z'
 title: 'iOS double tap mystery solved'
 tags: JavaScript
-redirect_from: /2018/06/07/8609
+permalink: /2018/06/07/8609
 excerpt_separator: <!--more-->
 ---
 Fixed a fun front-end bug yesterday:
