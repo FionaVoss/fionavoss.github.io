@@ -36,12 +36,12 @@ plugins:
 paginate: 10
 paginate_path: /posts/:num/
 header_pages:
-  - about.md
   - articles.html
-  - elsewhere.md
-  - subscribe.md
-  - topics.html
   - posts/index.html
+  - topics.html
+  - about.md
+  - subscribe.md
+  - elsewhere.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
