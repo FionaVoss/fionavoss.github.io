@@ -2,30 +2,40 @@
 layout: page
 title: Topics
 permalink: /topics/
-description: Articles organized by topic.
+redirect_from: /all-posts-by-topic/
+description: Articles and notes organized by topic.
 ---
 <p class="mb-40">
   {{ page.description }}
-  You can also <a href="{% link articles.html %}">see articles in chronological order</a>
-  or <a href="{% link all-posts-by-topic.html %}">see notes and articles by topic</a>.
+  You can also <a href="{% link posts/index.html %}">see posts in chronological order</a>.
 </p>
 
 {% assign sorted_tags = (site.tags | sort:0) %}
 {% for tag in sorted_tags %}
   {% assign tag_name = tag | first %}
   {% assign posts = tag | last %}
-  {% assign any_articles = false %}
-  {% for post in site.categories['articles'] %}
+  <h4 class="topic">{{ tag_name }}</h4>
+  <ul class="related-posts">
+  {% for post in posts %}
     {% if post.tags contains tag_name %}
-      {% assign any_articles = true %}
+    <li>
+      <a href="{{ post.url }}">
+        {% if post.title == "" %}
+          {{ post.content | strip_html | truncate: 80 }}
+        {% else %}
+          {{ post.title }} 📝
+        {% endif %}
+      </a>
+    </li>
     {% endif %}
   {% endfor %}
+  </ul>
+{% endfor %}
 
-  {% if any_articles == true %}
-    <h4 class="topic">{{ tag_name }}</h4>
-    <ul class="related-posts">
-    {% for post in site.categories['articles'] %}
-      {% if post.tags contains tag_name %}
+<h4 class="topic">Uncategorized</h4>
+<ul class="related-posts">
+  {% for post in site.posts %}
+    {% if post.tags == empty %}
       <li>
         <a href="{{ post.url }}">
           {% if post.title == "" %}
@@ -35,34 +45,6 @@ description: Articles organized by topic.
           {% endif %}
         </a>
       </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
-
-{% assign any_uncategorized = false %}
-{% for post in site.categories['articles'] %}
-  {% if post.tags == empty %}
-    {% assign any_uncategorized = true %}
-  {% endif %}
-{% endfor %}
-
-{% if any_uncategorized %}
-  <h4 class="topic">Uncategorized</h4>
-  <ul class="related-posts">
-    {% for post in site.categories['articles'] %}
-      {% if post.tags == empty %}
-        <li>
-          <a href="{{ post.url }}">
-            {% if post.title == "" %}
-              {{ post.content | strip_html | truncate: 80 }}
-            {% else %}
-              {{ post.title }}
-            {% endif %}
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-{% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
