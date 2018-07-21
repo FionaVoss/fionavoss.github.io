@@ -8,7 +8,7 @@ When I started writing this post it was going to be a request for debugging help
 
 # Background
 
-Previously, I was only tagging my [articles]({% link articles.html %}), but I wanted to organize my [notes]({% link notes.html %}) by tag as well. I created a new page to list [articles and notes by topic]({% link topics.html %}), and if you scroll down to the bottom of this page, you'll see a list of articles and notes tagged 'Jekyll'.
+Previously, I was only tagging my [articles]({% link articles.html %}), but I wanted to organize my [notes]({% link notes.html %}) by tag as well. I created a new page to list [articles and notes by topic]({% link all-posts-by-topic.html %}), and if you scroll down to the bottom of this page, you'll see a list of articles and notes tagged 'Jekyll'.
 
 Since notes don't have titles, I am displaying the first 80 characters of the post body. Since the body sometimes contains HTML, I am stripping the HTML to prevent unclosed HTML tags from wreaking havoc on my layout.
 
@@ -26,7 +26,7 @@ I was using using the same code to display truncated post content in two differe
 
 But the Markdown formatting was not getting stripped consistently.
 
-On [the topics page]({% link topics.html %}) ([source code here](https://github.com/FionaVoss/fionavoss.github.io/blob/master/topics.html)) one post showed up as:
+On [the topics page]({% link all-posts-by-topic.html %}) ([source code here](https://github.com/FionaVoss/fionavoss.github.io/blob/master/all-posts-by-topic.html)) one post showed up as:
 
 > Current goal: Finish On Fire With Phoenix before Code School goes bye-bye on ...
 

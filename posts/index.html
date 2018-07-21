@@ -6,7 +6,7 @@ description: Articles and notes (short, untitled posts, a.k.a. microposts).
 <p class="mb-40">
   {{ page.description }}
   You can also <a href="{% link articles.html %}">see articles only</a>
-  or <a href="{% link topics.html %}">browse by topic</a>.
+  or <a href="{% link all-posts-by-topic.html %}">browse by topic</a>.
 </p>
 <ul class="post-list">
   {% for post in paginator.posts %}
