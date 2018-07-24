@@ -61,21 +61,30 @@ layout: default
       </ul>
     {% endif %}
   {%- endfor -%}
-  <p>
+  <p style="margin-bottom: 30px">
     {% if showingAnyTags %}
-      <a href="{% link all-posts-by-topic.html %}" class="all-topics">
+      <a href="{% link topics.html %}" class="all-topics">
         See all topics
-      </a>
-    {% elsif page.title == "" %}
-      <a href="{% link posts/index.html %}" class="all-topics">
-        See more posts
-      </a>
-    {% else %}
-      <a href="{% link articles.html %}" class="all-topics">
-        See more articles
       </a>
     {% endif %}
   </p>
+<h3 class="topic">Recent articles:</h3>
+<ul class="related-posts">
+  {% for post in site.categories['articles'] limit:5 %}
+    {% if post.url != page.url %}
+      <li>
+        <a href="{{ post.url | absolute_url }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<p style="margin-bottom: 30px">
+  <a href="{% link articles.html %}" class="all-topics">
+    See all articles
+  </a>
+</p>
 </aside>
 
 <style>
