@@ -40,7 +40,6 @@ header_pages:
   - posts/index.html
   - topics.html
   - about.md
-  - subscribe.md
   - elsewhere.md
 
 # Exclude from processing.

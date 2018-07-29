@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+redirect_from: /subscribe/
 description: Information about me and the technologies that power this site.
 ---
 
