@@ -1,19 +1,19 @@
 ---
 layout: page
+title: Articles
+description: Showing all of my long-form blog posts in chronological order.
 ---
-<h3>What's on this site:</h3>
-{%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.header_pages | default: default_paths -%}
-{%- for path in page_paths -%}
-  {%- assign my_page = site.pages | where: "path", path | first -%}
-  {% unless my_page.exclude %}
-    {%- if my_page.title -%}
-      <h4 style="margin-bottom: 5px">
-        <a class="page-link" href="{{ my_page.url | relative_url }}">
-          {{ my_page.title | escape }}
-        </a>
-      </h4>
-      <p style="margin-bottom: 25px">{{ my_page.description }}</p>
-    {%- endif -%}
-  {% endunless %}
-{% endfor -%}
+<p class="mb-40">
+  {{ page.description }}
+  You can also <a href="{% link posts/index.html %}">see articles and notes</a>
+  or <a href="{% link topics.html %}">browse by topic</a>.
+</p>
+{% assign postsByYearMonth = site.categories['articles'] | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
+{% for yearMonth in postsByYearMonth %}
+  <h4>{{ yearMonth.name }}</h4>
+    <ul class="related-posts">
+      {% for post in yearMonth.items %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}

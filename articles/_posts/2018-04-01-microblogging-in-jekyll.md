@@ -9,7 +9,7 @@ A microblog is a blog that features short, usually untitled posts. Until recentl
 
 I've added a [Notes]({% link notes.html %}) page for microposts and an [Articles]({% link articles.html %}) page for my longer posts, while my [home page]({% link index.html %}) shows both types of posts. I can easily post to my Jekyll blog from anywhere using my phone, and my posts automatically get cross-posted to Twitter.
 
-(Note: I have made some changes to my site since I published this post, so the paragraph above is a little out of date. My home page now lists all the main pages on my site, instead of showing recent posts.)
+(Note: I have made some changes to my site since I published this post, so the paragraph above is a little out of date.)
 
 Why do this? Microblogging on my own site gives me more flexibility than using Twitter. I don't have to obey Twitter's character limits and I can mark up my posts however I want. I control the design of my own site, and I choose whether it has ads or not.
 

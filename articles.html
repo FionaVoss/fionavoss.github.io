@@ -1,20 +1,4 @@
 ---
-layout: page
-title: Articles
-permalink: /articles/
-description: All of my long-form blog posts in chronological order.
+permalink: /articles
+redirect_to: /
 ---
-<p class="mb-40">
-  {{ page.description }}
-  You can also <a href="{% link posts/index.html %}">see articles and notes</a>
-  or <a href="{% link topics.html %}">browse by topic</a>.
-</p>
-{% assign postsByYearMonth = site.categories['articles'] | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
-{% for yearMonth in postsByYearMonth %}
-  <h4>{{ yearMonth.name }}</h4>
-    <ul class="related-posts">
-      {% for post in yearMonth.items %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-{% endfor %}
