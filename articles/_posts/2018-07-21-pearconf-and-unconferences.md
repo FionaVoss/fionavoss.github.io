@@ -60,7 +60,7 @@ The next time I attend an unconference I will suggest one thing that I think wil
 
 In the sessions I was a part of, we mostly didn't do introductions, and when we did, we either just answered a silly question that didn't relate to the conference, or spoke generally about our experience with pairing.
 
-Here's why I think this question whout be a good starting point:
+Here's why I think this question would be a good starting point:
 
 1. It would help us identify some common themes that people are interested in and approach the discussion in a more structured way. We could even write a mini-agenda for the session.
 
