@@ -3,6 +3,7 @@ layout: post
 title: Why code bootcamps should teach Jekyll
 tags: Jekyll
 date: 2018-04-13 21:35:00 -0700
+redirect_from: /2018/04/14/why-bootcamps-should-teach-jekyll
 ---
 As a bootcamp grad and a former teacher, I often think about what I would teach if I ran a code bootcamp. One thing that I think I would include is a static site generator, preferably Jekyll.
 
