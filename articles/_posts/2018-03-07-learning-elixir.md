@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One Month of Learning Elixir
+title: One month of learning Elixir
 tags: Elixir
 ---
 

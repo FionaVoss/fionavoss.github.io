@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Four Stages of Understanding Git
+title: Four stages of understanding Git
 tags: Git
 ---
 

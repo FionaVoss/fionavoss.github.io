@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Code Bootcamps Should Teach Jekyll
+title: Why code bootcamps should teach Jekyll
 tags: Jekyll
 date: 2018-04-13 21:35:00 -0700
 ---

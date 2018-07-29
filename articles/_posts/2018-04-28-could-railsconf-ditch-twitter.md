@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Could RailsConf Ditch Twitter for Micro.blog?
+title: Could RailsConf ditch Twitter for Micro.blog?
 date: 2018-04-28
 tags: Conferences
 ---

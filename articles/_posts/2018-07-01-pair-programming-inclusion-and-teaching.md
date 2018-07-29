@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2018-07-01 16:21:00 -0700'
-title: 'Pair programming, inclusion, and teaching people how to pair well 🍐'
+title: 'Pair programming, inclusion, and teaching people how to pair well'
 tags:
   - 'Pair programming'
 ---
