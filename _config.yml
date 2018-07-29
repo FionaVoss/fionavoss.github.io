@@ -21,7 +21,7 @@ url: "http://fionavoss.blog" # the base hostname & protocol for your site, e.g. 
 twitter_username: fionajvoss
 github_username:  fionavoss
 show_excerpts: true
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title/
 google_analytics: UA-112917999-1
 timezone: America/Los_Angeles
 
