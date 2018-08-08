@@ -2,8 +2,8 @@
 layout: post
 date: '2018-05-20T03:14:07.539Z'
 tags: Blogging
-title: ''
-slug: '11647'
+title: 'Why do so many developers blog on Medium?'
+permalink: /2018/05/19/11647/
 ---
 I have so much fun tinkering with my Jekyll site. It&#39;s the perfect hobby for a software developer who likes to write. DIY seems like the obvious choice for developers, but there are so many of us writing on Medium instead. It got me thinking about why I considered Medium when I wanted to start blogging.
 
