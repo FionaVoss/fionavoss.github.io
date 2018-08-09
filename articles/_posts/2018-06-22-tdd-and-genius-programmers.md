@@ -2,15 +2,11 @@
 layout: post
 date: '2018-06-22 20:07:00 -0700' #todo
 title: "TDD and \"genius\" programmers"
-tags:
-  - 'TDD'
-excerpt_separator: <!--more-->
+tags: Programming
 ---
 The way I usually explain automated software tests to people who aren’t familiar with them is that if you write a test for the thing you're working on *now*, it will let you know when you accidentally break it *later*, before the bug gets into production.
 
 This describes how tests can be a part of QA, but not how they can be a part of the development process.
-
-<!--more-->
 
 I’ve been working on a complicated feature for several weeks and I don’t think I could have done it without using TDD. The requirements are just too complex for me to hold them all in my head at once.
 

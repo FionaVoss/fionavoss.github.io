@@ -2,8 +2,7 @@
 layout: post
 date: '2018-06-20 18:45:00 -0700' #todo
 title: "Stack Overflow and \"Why wasn't I consulted?\""
-tags:
-  - 'Stack Overflow'
+tags: UX
 excerpt_separator: <!--more-->
 ---
 In 2011, Paul Ford [wrote about the "fundamental question of the web"](http://www.ftrain.com/wwic.html):

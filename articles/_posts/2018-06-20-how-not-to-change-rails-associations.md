@@ -2,8 +2,7 @@
 layout: post
 date: '2018-06-20 20:08:00 -0700'
 title: How not to change a one-to-many association to many-to-many in Rails
-tags:
-  - 'Ruby on Rails'
+tags: Ruby
 ---
 I am working on a feature that involves changing an existing one-to-many relationship to many-to-many, and I've realized I made it unnecessarily troublesome for myself.
 

@@ -2,15 +2,11 @@
 layout: post
 date: '2018-06-26 21:05:00 -0700'
 title: 'Clean code, livable code, and junk drawers'
-tags:
-  - 'Clean code'
-excerpt_separator: <!--more-->
+tags: Programming
 ---
 In his recent post ["Forget about Clean Code, let’s embrace Compassionate Code"](http://johannesbrodwall.com/2018/06/24/forget-about-clean-code-lets-embrace-compassionate-code/), Johannes Brodwall writes:
 
 > I don’t believe we should use TDD because it’s a professional obligation. Instead I use TDD when it makes my work more enjoyable. I don’t think we should refactor our code because it violates a SOLID-principle. Instead I sometimes reach to a principle to understand why some piece of code is hard to change or understand. I don’t want to shame people for writing Unclean Code. Instead I believe in having an honest dialog among equals about how we want our code to look. I don’t believe that professionalism should compel us to introduce tests for all untested code. Instead I believe we should prioritize which deficiencies we fix and which code monsters we allow to live out their lives in their part of the code base.
-
-<!--more-->
 
 It reminded me of Sarah Mei's talk [Livable Code](https://www.youtube.com/watch?v=lI77oMKr5EY), where she drew comparisons between living in a house and working in a code base. (I'm convinced it's the most apt metaphor in the history of metaphors.)
 
