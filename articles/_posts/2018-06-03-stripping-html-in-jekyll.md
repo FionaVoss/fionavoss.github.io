@@ -30,7 +30,7 @@ On [the topics page]({% link all-posts-by-topic.html %}) ([source code here](htt
 
 > Current goal: Finish On Fire With Phoenix before Code School goes bye-bye on ...
 
-While on [an individual post's page]({% post_url /notes/2018-03-04-01 %}) ([source code here](https://github.com/FionaVoss/fionavoss.github.io/blob/master/_layouts/post.html)) it looked like:
+While on [an individual post's page](http://fionavoss.blog/2018/03/04/01) ([source code here](https://github.com/FionaVoss/fionavoss.github.io/blob/master/_layouts/post.html)) it looked like:
 
 > Current goal: Finish [On Fire With Phoenix](https://www.codeschool.com/course...
 
