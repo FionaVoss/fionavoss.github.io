@@ -6,8 +6,7 @@ redirect_from: articles.html
 ---
 <p class="mb-40">
   {{ page.description }}
-  You can also <a href="{% link posts/index.html %}">see articles and notes</a>
-  or <a href="{% link topics.html %}">browse by topic</a>.
+  You can also <a href="{% link topics.html %}">browse by topic</a>.
 </p>
 {% assign postsByYearMonth = site.categories['articles'] | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
 {% for yearMonth in postsByYearMonth %}

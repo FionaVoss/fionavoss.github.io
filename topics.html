@@ -6,8 +6,7 @@ description: Articles organized by topic.
 ---
 <p class="mb-40">
   {{ page.description }}
-  You can also <a href="{% link index.html %}">see articles in chronological order</a>
-  or <a href="{% link all-posts-by-topic.html %}">see notes and articles by topic</a>.
+  You can also <a href="{% link index.html %}">see articles in chronological order</a>.
 </p>
 
 {% assign sorted_tags = (site.tags | sort:0) %}
