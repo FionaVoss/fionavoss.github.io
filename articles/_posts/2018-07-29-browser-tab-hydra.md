@@ -2,14 +2,12 @@
 layout: post
 date: '2018-07-29 10:51:00 -0700'
 title: 'Taming the browser tab Hydra'
-tags: UX
-excerpt_separator: <!--more-->
+tags:
+  - 'User Experience'
 ---
 There's this great [article from the Nielsen Norman Group about page parking](https://www.nngroup.com/articles/multi-tab-page-parking/)&mdash;a form of tabbed browsing&mdash;which [I've microblogged about](http://fionavoss.blog/2018/06/28/60647) [multiple times](http://fionavoss.blog/2018/05/26/68520) because I find it completely fascinating.
 
 The article contrasts page parking with parallel browsing. In parallel browsing, the user keeps many tabs open in order to easily switch between tasks. For example, they might keep their email in one tab, Twitter in another, Facebook in a third one, and so on.
-
-<!--more-->
 
 In page parking, however, the user employs many tabs to fulfill a single task. It's common when shopping online or viewing search results. I might search for a product in an online store, rapidly open each result in a new tab, and close the tabs as I narrow down my choices.
 

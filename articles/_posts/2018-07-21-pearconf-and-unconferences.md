@@ -2,15 +2,13 @@
 layout: post
 date: '2018-07-21 08:57:00 -0700'
 title: 'PearConf and some thoughts on unconferences'
-tags: Conferences
-excerpt_separator: <!--more-->
+tags:
+  - 'Tech Conferences'
 ---
 
 Last weekend I attended [PearConf](https://pearconf.splashthat.com/), an awesome conference about pair programming! It was my second tech conference and my first unconference.
 
 I previously wrote about [why I wanted to attend]({% post_url /articles/2018-07-01-pair-programming-inclusion-and-teaching %}). Now, here are my thoughts on how it went. I'll start with a summary of the conference, which will give you an idea of how unconferences work if you've never attended one before. Then I'll share my thoughts, both about PearConf specifically and about unconferences in general.
-
-<!--more-->
 
 # PearConf summary
 

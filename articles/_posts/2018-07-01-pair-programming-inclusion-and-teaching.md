@@ -2,8 +2,7 @@
 layout: post
 date: '2018-07-01 16:21:00 -0700'
 title: 'Pair programming, inclusion, and teaching people how to pair well'
-tags:
-  - 'Pair programming'
+tags: Teaching
 ---
 I'm going to PearConf! [PearConf](https://pearconf.splashthat.com/) is a conference dedicated to pair programming and inclusiveness. It's going to be held in San Francisco later this month.
 

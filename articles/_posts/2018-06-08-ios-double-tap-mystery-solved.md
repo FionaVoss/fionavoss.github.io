@@ -2,7 +2,6 @@
 layout: post
 date: '2018-06-08T02:23:29.419Z'
 title: 'iOS double tap mystery solved'
-tags: JavaScript
 permalink: /2018/06/07/8609/
 ---
 Fixed a fun front-end bug yesterday:

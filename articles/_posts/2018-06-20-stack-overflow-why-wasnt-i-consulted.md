@@ -1,16 +1,13 @@
 ---
 layout: post
-date: '2018-06-20 18:45:00 -0700' #todo
+date: '2018-06-20 18:45:00 -0700'
 title: "Stack Overflow and \"Why wasn't I consulted?\""
 tags:
-  - 'Stack Overflow'
-excerpt_separator: <!--more-->
+  - 'User Experience'
 ---
 In 2011, Paul Ford [wrote about the "fundamental question of the web"](http://www.ftrain.com/wwic.html):
 
 > “Why wasn't I consulted,” which I abbreviate as WWIC, is the fundamental question of the web. It is the rule from which other rules are derived. Humans have a fundamental need to be consulted, engaged, to exercise their knowledge (and thus power), and no other medium that came before has been able to tap into that as effectively.
-
-<!--more-->
 
 I found this interesting in part because it explains my greatest frustration with Stack Overflow and all of the Stack Exchange sites: the fact that you need a certain "reputation" score to be able to upvote or comment.
 

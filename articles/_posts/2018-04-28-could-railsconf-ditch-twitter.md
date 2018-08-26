@@ -2,7 +2,8 @@
 layout: post
 title: Could RailsConf ditch Twitter for Micro.blog?
 date: 2018-04-28
-tags: Conferences
+tags:
+  - 'Tech Conferences'
 ---
 A little background on how I microblog: I post [short, untitled notes]({% link notes.html %}) on my own site, and they get automatically posted to [Twitter](https://twitter.com/fionajvoss) and [Micro.blog](https://micro.blog/fiona). Micro.blog is a service that's a lot like Twitter, but it's based on RSS so you can post from your own website. It's also designed in a way that makes it a lot less shouty than Twitter (no likes, retweets, or follower counts).
 
