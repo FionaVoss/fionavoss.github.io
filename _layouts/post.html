@@ -35,7 +35,7 @@ layout: default
   {%- for tag in page.tags -%}
     <!-- determine whether there are additional posts to show -->
     {% assign moreThanOneInCategory = false %}
-    {% assign posts = site.tags[tag] %}
+    {% assign posts = site.tags[tag] | where_exp: "post", "post.categories contains 'articles'" %}
     {% for post in posts %}
       {% if forloop.length > 1 %}
         {% assign moreThanOneInCategory = true %}
@@ -48,7 +48,7 @@ layout: default
       <h3 class="topic">More posts about {{ tag }}:</h3>
       <ul class="related-posts">
         {% for post in posts %}
-          {% if post.url != page.url %}
+          {% if post.url != page.url and post.categories contains 'articles' %}
             <li>
               <a href="{{ post.url | absolute_url }}">
                 {% if post.title == "" %}
