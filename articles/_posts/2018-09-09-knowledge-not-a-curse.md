@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2018-09-09 13:18:00 -0700'
+date: '2018-09-09 14:21:00 -0700'
 title: "In teaching, knowledge is a hurdle, not a curse"
 tags: Teaching
 ---
