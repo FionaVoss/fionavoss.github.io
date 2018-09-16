@@ -3,6 +3,7 @@ layout: post
 title: Four stages of understanding Git
 tags:
   - 'Learning to Code'
+redirect_from: /articles/2018/02/25/stages-of-understanding-git.html
 ---
 
 I use Git every day, and I would never want to work on a significant coding project without it. However, it took time for me to get comfortable with it. When I was a beginner, I picked up JavaScript and Ruby with relative ease, but Git was something that I couldn't wrap my head around for months.

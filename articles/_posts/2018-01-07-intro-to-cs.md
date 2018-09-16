@@ -2,6 +2,7 @@
 layout: post
 title: Accelerated Introduction to Computer Science (CS 165)
 tags: OSU
+redirect_from: /articles/2018/01/07/intro-to-cs.html
 ---
 This past fall, I took CS 165: Accelerated Introduction to Computer Science, online from Oregon State University. It was my first course as a student in [OSU's post-baccalaureate computer science program](http://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science/), through which I'll be earning my second bachelor's degree over the next 2-3 years.
 

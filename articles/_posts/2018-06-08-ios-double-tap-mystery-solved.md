@@ -3,6 +3,7 @@ layout: post
 date: '2018-06-08T02:23:29.419Z'
 title: 'iOS double tap mystery solved'
 permalink: /2018/06/07/8609/
+redirect_from: /2018/06/07/ios-double-tap-mystery-solved
 ---
 Fixed a fun front-end bug yesterday:
 
