@@ -67,6 +67,7 @@ h1, h2, h3, h4 {
   font-family: Consolas, monaco, monospace;
   a {
     text-decoration: none;
+    color: $near-black;
     &:hover {
       text-decoration: underline;
     }
@@ -107,4 +108,18 @@ hr {
   background-color: #a463f2;
   margin: 30px 0;
   border: none;
+}
+ nav a:not(:last-child) {
+  margin-right: 1.5em;
+}
+.nav-inner {
+  display: inline-block;
+  margin-bottom: 14px
+}
+nav .title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 54px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
 }
