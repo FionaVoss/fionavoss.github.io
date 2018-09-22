@@ -2,14 +2,8 @@
 layout: page
 title: Topics
 permalink: /topics/
-description: Posts organized by topic.
 redirect_from: /gems/
 ---
-<p class="mb-40">
-  {{ page.description }}
-  You can also <a href="{% link index.html %}">see posts in chronological order</a>.
-</p>
-
 {% assign sorted_tags = (site.tags | sort:0) %}
 {% for tag in sorted_tags %}
   {% assign tag_name = tag | first %}
