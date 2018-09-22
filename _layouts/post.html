@@ -45,7 +45,7 @@ layout: default
     <!-- if any, show posts with same tag -->
     {% if moreThanOneInCategory == true %}
       {% assign showingAnyTags = true %}
-      <h3 class="topic">More posts about {{ tag }}</h3>
+      <h3>More posts about {{ tag }}</h3>
       <ul class="related-posts">
         {% for post in posts %}
           {% if post.url != page.url and post.categories contains 'articles' %}
@@ -70,7 +70,7 @@ layout: default
       </a>
     {% endif %}
   </p>
-<h3 class="topic">Recent articles</h3>
+<h3>Recent articles</h3>
 <ul class="related-posts">
   {% for post in site.categories['articles'] limit:5 %}
     {% if post.url != page.url %}

@@ -22,7 +22,7 @@ redirect_from: /gems/
   {% endfor %}
 
   {% if any_articles == true %}
-    <h4 class="topic">{{ tag_name }}</h4>
+    <h4>{{ tag_name }}</h4>
     <ul class="related-posts">
     {% for post in site.categories['articles'] %}
       {% if post.tags contains tag_name %}
@@ -49,7 +49,7 @@ redirect_from: /gems/
 {% endfor %}
 
 {% if any_uncategorized %}
-  <h4 class="topic">Uncategorized</h4>
+  <h4>Uncategorized</h4>
   <ul class="related-posts">
     {% for post in site.categories['articles'] %}
       {% if post.tags == empty %}
