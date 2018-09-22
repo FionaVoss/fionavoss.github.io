@@ -8,20 +8,15 @@ description: Information about me and the technologies that power this site.
 
 I'm a software engineer and computer science student based in San Diego, CA.
 
-I work on lots of different things at [Ceatus Media Group](http://www.ceatus.com/) using Ruby on Rails.
+I got my start in the industry at [LEARN Academy](https://www.learnacademy.org/)'s web development bootcamp, which I consider to be [one of the best educational experiences of my life]({% post_url /articles/2018-09-18-best-educational-experiences %}).
 
-I got my start in the industry at [LEARN Academy's web development bootcamp](https://www.learnacademy.org/).
+Before that, I taught English as a second language to adult students from around the world in San Diego and New York City.
 
-Right now I'm working on a second bachelor's degree in computer science from [Oregon State University](http://eecs.oregonstate.edu/online-cs-students).
+Right now I'm working on a second bachelor's degree in computer science from [Oregon State University](http://eecs.oregonstate.edu/online-cs-students). [Read about why here.]({% post_url /articles/2018-07-08-why-back-to-school-for-cs %})
 
 # How to subscribe
 
-You can subscribe via [RSS]({% link feed.xml %}) or follow me on [Micro.blog](https://micro.blog/fiona), [Twitter](https://twitter.com/fionajvoss), or [Medium](https://medium.com/@fionavoss) to be notified of new posts.
-
-# Other places to find me
-
-* [GitHub](https://github.com/FionaVoss)
-* [LinkedIn](https://www.linkedin.com/in/fionavoss/)
+You can subscribe via [RSS]({% link feed.xml %}) or follow me on [Micro.blog](https://micro.blog/fiona) or [Twitter](https://twitter.com/fionajvoss) to be notified of new posts.
 
 # This blog's stack
 
