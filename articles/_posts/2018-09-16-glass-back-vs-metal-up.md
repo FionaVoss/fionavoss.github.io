@@ -2,7 +2,8 @@
 layout: post
 date: '2018-09-16 21:11:00 -0700'
 title: "'Glass back' vs. 'metal up' learning"
-tags: Teaching
+tags:
+  - 'Teaching and learning'
 ---
 In his article ["Teaching coding from the Metal Up or from the Glass Back?"](https://www.hanselman.com/blog/TeachingCodingFromTheMetalUpOrFromTheGlassBack.aspx), Scott Hanselman describes two ways of learning computer science-related topics: learning "from the metal up" starts with low-level concepts and builds up to high-level abstractions, while learning "from the glass back" starts with the user interface or other final product, and delves into low-level concepts from there.
 

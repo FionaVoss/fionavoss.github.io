@@ -3,7 +3,7 @@ layout: post
 date: '2018-06-06T04:05:55.522Z'
 title: 'When everything clicks'
 tags:
-  - 'Teaching'
+  - 'Teaching and learning'
 permalink: /2018/06/05/14755/
 redirect_from: /2018/06/05/when-everything-clicks
 ---

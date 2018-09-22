@@ -3,7 +3,7 @@ layout: post
 title: One month of learning Elixir
 redirect_from: /articles/2018/03/07/learning-elixir.html
 tags:
-  - 'Learning to Code'
+  - 'Teaching and learning'
 ---
 
 I recently became interested in learning Elixir. I had been hearing a lot about functional programming, and I wanted to see what all the fuss was about.

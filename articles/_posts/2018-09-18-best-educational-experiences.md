@@ -2,7 +2,8 @@
 layout: post
 date: '2018-09-18 19:22:00 -0700'
 title: "What the best two educational experiences of my life had in common"
-tags: Teaching
+tags:
+  - 'Teaching and learning'
 ---
 In the fall of 2010, I was about to graduate from college with a degree in Art History, no particular interest in working in the art industry, and no idea what I wanted to do next. Remembering that I had always enjoyed studying foreign languages, I figured I might like teaching English as a second language. I enrolled in a 4-week course to earn my [CELTA](https://en.wikipedia.org/wiki/CELTA) certificate, an entry-level credential for ESL teachers.
 

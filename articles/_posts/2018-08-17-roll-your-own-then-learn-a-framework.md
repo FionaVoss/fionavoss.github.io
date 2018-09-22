@@ -2,7 +2,8 @@
 layout: post
 date: '2018-08-17 19:36:00 -0700'
 title: 'Roll your own, then learn a framework'
-tags: Teaching
+tags:
+  - 'Teaching and learning'
 ---
 Today a coworker and I were researching two popular authorization frameworks ([Pundit](https://github.com/varvet/pundit) and [CanCanCan](https://github.com/CanCanCommunity/cancancan)) in order to decide which was the better choice for one of our applications.
 

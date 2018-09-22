@@ -2,7 +2,7 @@
 layout: post
 title: Four stages of understanding Git
 tags:
-  - 'Learning to Code'
+  - 'Teaching and learning'
 redirect_from: /articles/2018/02/25/stages-of-understanding-git.html
 ---
 

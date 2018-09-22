@@ -2,7 +2,8 @@
 layout: post
 date: '2018-09-09 14:21:00 -0700'
 title: "In teaching, knowledge is a hurdle, not a curse"
-tags: Teaching
+tags:
+  - 'Teaching and learning'
 ---
 The [curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge) is the name given to a cognitive bias which causes people to unknowingly assume that others know what they know. This bias can make it difficult for experts to communicate with others who know less about their field.
 
