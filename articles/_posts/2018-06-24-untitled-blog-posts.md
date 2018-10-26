@@ -69,4 +69,4 @@ It’s pretty easy with Jekyll, but if you’re trying to reduce friction, you�
 
 I know people are doing this with Wordpress blogs, too.
 
-But if you want to just start writing with a minimal amount of technical setup, I can’t recommend [Micro.blog](https://micro.blog/) highly enough. For $5/month they will host a beautifully designed blog for you. Posting is a easy as using Twitter or Medium, but you can write short and long, titled and untitled posts all in one place. They make it easy to add your own domain, or migrate to a different platform later on if you decide you want to use something else.
+But if you want to just start writing with a minimal amount of technical setup, I can’t recommend [Micro.blog](https://micro.blog/) highly enough. For $5/month they will host a beautifully designed blog for you. Posting is as easy as using Twitter or Medium, but you can write short and long, titled and untitled posts all in one place. They make it easy to add your own domain, or migrate to a different platform later on if you decide you want to use something else.
