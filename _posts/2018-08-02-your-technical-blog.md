@@ -19,7 +19,7 @@ So, because I want to share what I've learned with other bloggers (and future bl
 
 # Code snippets
 
-Ryan says Dev.to is good for displaying code snippets, but Jekyll makes this really easy, too. You get syntax highlighting in many programming languages out of the box. [Here's a post with some Ruby code snippets]({% post_url /articles/2018-05-16-ruby-methods-are-objects %}), and [here's one with Liquid, HTML, and Markdown]({% post_url /articles/2018-04-01-microblogging-in-jekyll %}).
+Ryan says Dev.to is good for displaying code snippets, but Jekyll makes this really easy, too. You get syntax highlighting in many programming languages out of the box. [Here's a post with some Ruby code snippets]({% post_url /2018-05-16-ruby-methods-are-objects %}), and [here's one with Liquid, HTML, and Markdown]({% post_url /2018-04-01-microblogging-in-jekyll %}).
 
 I haven't used other static site generators much, but they're made for developers, so I'm going to confidently assume they have good support for code snippets. If you use Wordpress, there are plugins you can install for syntax highlighting, and if you build your blog in Rails, there are gems for it.
 

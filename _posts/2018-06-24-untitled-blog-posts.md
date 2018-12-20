@@ -12,9 +12,9 @@ If I had to describe the way I viewed the writing process when I started this bl
 
 The first few posts I published reflect this belief: they are long, heavily structured, and took me weeks to write. See for yourself:
 
-* [Accelerated Introduction to Computer Science (CS 165)]({% post_url /articles/2018-01-07-intro-to-cs %})
-* [Four Stages of Understanding Git]({% post_url /articles/2018-02-25-stages-of-understanding-git %})
-* [One Month of Learning Elixir]({% post_url /articles/2018-03-07-learning-elixir %})
+* [Accelerated Introduction to Computer Science (CS 165)]({% post_url /2018-01-07-intro-to-cs %})
+* [Four Stages of Understanding Git]({% post_url /2018-02-25-stages-of-understanding-git %})
+* [One Month of Learning Elixir]({% post_url /2018-03-07-learning-elixir %})
 
 I didn’t start a blog because I thought the writing part would be fun. I did it because I was intrigued by [Jekyll](https://jekyllrb.com/) and wanted to learn the technology, and because I had just taken Intro to CS and thought that my take on the class would be helpful to other bootcamp grads and self-taught developers.
 
@@ -22,7 +22,7 @@ I didn’t start a blog because I thought the writing part would be fun. I did i
 
 I discovered [Micro.blog](https://micro.blog/). I decided to set up my blog for microblogging, and syndicate to Micro.blog and Twitter. When you see me [tweet](https://twitter.com/fionajvoss/status/1010753057599184896), that tweet was originally published [on my blog](http://fionavoss.blog/2018/06/23/18627).
 
-At first, I thought that I would use microblogging just like Twitter, posting either long, titled posts, or untitled posts below 280 characters. If you read the post about [how I set up my blog for microblogging]({% post_url /articles/2018-04-01-microblogging-in-jekyll %}), you’ll see that I drew a bold line between these two types of posts, creating separate categories for “notes” and “articles”.
+At first, I thought that I would use microblogging just like Twitter, posting either long, titled posts, or untitled posts below 280 characters. If you read the post about [how I set up my blog for microblogging]({% post_url /2018-04-01-microblogging-in-jekyll %}), you’ll see that I drew a bold line between these two types of posts, creating separate categories for “notes” and “articles”.
 
 But one of the great things about Micro.blog is that it handles all post lengths reasonably. Untitled posts below 280 characters appear in the timeline fully. Longer untitled posts show an excerpt, with a link to the full post. Titled posts display only the title, with a link to the post. If you have cross-posting to Twitter turned on, they show up in Twitter the same way.
 
@@ -40,7 +40,7 @@ In response to Seth Godin’s recent call to blog daily, [CJ Chilvers wrote this
 >
 >Maybe I need to create the time, even at great cost, to blog more often if it means I can regularly free my brain of festering ideas. Maybe I shouldn’t say maybe: it seems like an invitation for this idea to fester.
 
-Which rang very true for me. Blogging daily, or at least frequently, lets me move on to the next idea. But you can’t blog every day if you’re writing posts like [this]({% post_url /articles/2018-02-25-stages-of-understanding-git %})—not unless blogging is your full-time job. You can, however, publish posts like [this](http://fionavoss.blog/2018/06/07/8609) every day.
+Which rang very true for me. Blogging daily, or at least frequently, lets me move on to the next idea. But you can’t blog every day if you’re writing posts like [this]({% post_url /2018-02-25-stages-of-understanding-git %})—not unless blogging is your full-time job. You can, however, publish posts like [this](http://fionavoss.blog/2018/06/07/8609) every day.
 
 OK, time to address the irony of the fact that this post has a title:
 
@@ -65,7 +65,7 @@ If you’re reading this and you want to put what I’ve learned into practice, 
 
 Unfortunately, a lot of blogging software expects or even requires titles, so you’ll have to find one that doesn’t.
 
-It’s pretty easy with Jekyll, but if you’re trying to reduce friction, you’ll probably want to set up a Micropub endpoint so you can publish without having access to a text editor and command line, as I’ve described [here]({% post_url /articles/2018-04-01-microblogging-in-jekyll %}).
+It’s pretty easy with Jekyll, but if you’re trying to reduce friction, you’ll probably want to set up a Micropub endpoint so you can publish without having access to a text editor and command line, as I’ve described [here]({% post_url /2018-04-01-microblogging-in-jekyll %}).
 
 I know people are doing this with Wordpress blogs, too.
 

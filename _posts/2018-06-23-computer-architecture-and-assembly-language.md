@@ -69,7 +69,7 @@ But more importantly, I really hate to see a course in a program designed to *tr
 
 # My experience
 
-If you read my blog post about [Discrete Structures (CS 225)]({% post_url /articles/2018-03-30-discrete-structures %}), you might remember that I wrote this:
+If you read my blog post about [Discrete Structures (CS 225)]({% post_url /2018-03-30-discrete-structures %}), you might remember that I wrote this:
 
 > I enjoyed learning C++ a lot because it helped me understand how computers work on a lower lever compared to the Ruby development I normally do, so **assembly language should be a real treat.**
 
@@ -93,7 +93,7 @@ Another example is why array indexes start at zero. If an array is a contiguous 
 address of list[k] = address of list + (k * size of element)
 ```
 
-So despite the fact that this class was not fun the way [CS 165]({% post_url /articles/2018-01-07-intro-to-cs %}) was for me, I am glad I took it, and proud of myself for getting through it.
+So despite the fact that this class was not fun the way [CS 165]({% post_url /2018-01-07-intro-to-cs %}) was for me, I am glad I took it, and proud of myself for getting through it.
 
 And if nothing else, I now know exactly how low-level is too low for me. 😁
 

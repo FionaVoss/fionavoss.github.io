@@ -27,7 +27,7 @@ I also have an inkling that the same technique could be really effective for tea
 
 # Bridging the gap between code bootcamps and CS degrees
 
-As somebody who attended a bootcamp and is now [studying computer science at a university]({% post_url /articles/2018-07-08-why-back-to-school-for-cs %}), I think that both types of institutions could improve their teaching by applying this principle more often&mdash;but for opposite reasons.
+As somebody who attended a bootcamp and is now [studying computer science at a university]({% post_url /2018-07-08-why-back-to-school-for-cs %}), I think that both types of institutions could improve their teaching by applying this principle more often&mdash;but for opposite reasons.
 
 Universities are criticized for teaching too much theory and not enough practical skills. If they spend the majority of their time on the low-level concepts, but take a little time to expose students to popular libraries for accomplishing the same goals at the end, graduates will have the skills to work on real-world projects while getting the same strong theoretical foundation.
 

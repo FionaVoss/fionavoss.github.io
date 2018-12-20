@@ -8,7 +8,7 @@ tags:
 
 Last weekend I attended [PearConf](https://pearconf.splashthat.com/), an awesome conference about pair programming! It was my second tech conference and my first unconference.
 
-I previously wrote about [why I wanted to attend]({% post_url /articles/2018-07-01-pair-programming-inclusion-and-teaching %}). Now, here are my thoughts on how it went. I'll start with a summary of the conference, which will give you an idea of how unconferences work if you've never attended one before. Then I'll share my thoughts, both about PearConf specifically and about unconferences in general.
+I previously wrote about [why I wanted to attend]({% post_url /2018-07-01-pair-programming-inclusion-and-teaching %}). Now, here are my thoughts on how it went. I'll start with a summary of the conference, which will give you an idea of how unconferences work if you've never attended one before. Then I'll share my thoughts, both about PearConf specifically and about unconferences in general.
 
 # PearConf summary
 
@@ -42,7 +42,7 @@ Doing the mini-retro in the middle of the day rather than the end of it was a gr
 
 As for the unconference format itself, I liked it a lot. Compared to a traditional conference where you sit and listen to talks, it's obviously much more participatory, which is fun and good for meeting people. You're able to learn from a wider variety of people than at a traditional conference where you only hear from a handful of speakers. I loved that I was able to suggest topics for sessions.
 
-On the other hand, the format has its drawbacks. For one, it's exhausting&mdash;at least it was for me! Participating in discussions all day takes a lot more energy than listening to talks, and I felt more tired after one day at PearConf than I did after 3 days at [RailsConf]({% post_url /articles/2018-04-26-railsconf %}).
+On the other hand, the format has its drawbacks. For one, it's exhausting&mdash;at least it was for me! Participating in discussions all day takes a lot more energy than listening to talks, and I felt more tired after one day at PearConf than I did after 3 days at [RailsConf]({% post_url /2018-04-26-railsconf %}).
 
 Marlena did set up a quiet room and encouraged us to use it to recharge, but I didn't take advantage of it because I didn't want to miss any discussions. This was fine, but only because I didn't have to do anything the next day except fly back to San Diego. If you're going to an unconference and need to be productive the next day, watch your energy levels so you don't wear yourself out.
 

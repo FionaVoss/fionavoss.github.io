@@ -15,7 +15,7 @@ And I was right. LEARN had everything I liked about the CELTA program, but even 
 
 # Best compared to what?
 
-I've studied in a variety of formal academic settings. I attended a private college-preparatory school for K-12 and NYU for my first bachelor's degree. I took one graduate-level linguistics course while I was teaching English in New York, and two semesters of Spanish at the local community college a few years ago. Right now, I'm [studying computer science online at OSU]({% post_url /articles/2018-07-08-why-back-to-school-for-cs %}).
+I've studied in a variety of formal academic settings. I attended a private college-preparatory school for K-12 and NYU for my first bachelor's degree. I took one graduate-level linguistics course while I was teaching English in New York, and two semesters of Spanish at the local community college a few years ago. Right now, I'm [studying computer science online at OSU]({% post_url /2018-07-08-why-back-to-school-for-cs %}).
 
 When I say that CELTA and LEARN were the best two educational experiences of my life, I am comparing them to all those things, and I think it's incredibly important to note the immense amount of privilege behind that list. I was very fortunate to experience the kind of education that many people only dream of. I think that fact makes it all the more striking that a teaching certificate and a code bootcamp were the best classroom experiences I ever had.
 

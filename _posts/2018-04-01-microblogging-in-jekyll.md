@@ -4,7 +4,7 @@ title: Microblogging in Jekyll
 redirect_from: /articles/2018/04/01/microblogging-in-jekyll.html
 tags: Jekyll
 ---
-*(Note: I have made some changes to my site since I published this post, so some of this information no longer applies. [Read an update here.]({% post_url /articles/2018-09-25-how-i-microblog %}))*
+*(Note: I have made some changes to my site since I published this post, so some of this information no longer applies. [Read an update here.]({% post_url /2018-09-25-how-i-microblog %}))*
 
 A microblog is a blog that features short, usually untitled posts. Until recently, I thought that Twitter and Tumblr were the only ways anybody microblogged nowadays. Turns out, there is a vibrant community of [IndieWeb](https://indieweb.org/) enthusiasts microblogging on their own websites. So lately, I've been setting up my own site for microblogging.  
 

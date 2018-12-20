@@ -13,7 +13,7 @@ While I don't believe that people are wired for learning either way, most people
 
 # I like learning from the glass back
 
-I definitely have a preference for learning from the glass back. It's why I'm glad I did a code bootcamp and worked as a Rails developer for a year before I [went back to school for a computer science degree]({% post_url /articles/2018-07-08-why-back-to-school-for-cs %}). I was able to get comfortable building applications using high-level tools before I had to wrap my brain around things like linked lists and the system stack.
+I definitely have a preference for learning from the glass back. It's why I'm glad I did a code bootcamp and worked as a Rails developer for a year before I [went back to school for a computer science degree]({% post_url /2018-07-08-why-back-to-school-for-cs %}). I was able to get comfortable building applications using high-level tools before I had to wrap my brain around things like linked lists and the system stack.
 
 At the time when I started at my bootcamp, most of my experience coding was with HTML and CSS. The "glass back" approached worked for me because it built upon my prior knowledge. If I had started with a traditional intro to computer science class right away instead, I'm not sure if I could have maintained interest in writing command line programs in C++ for a whole semester or longer without ever getting to work on something with a UI. But since I started learning lower-level concepts after working as a software developer for a year, I had the perspective to understand them and the motivation to learn them.
 
@@ -21,7 +21,7 @@ And now that I am more familiar with low-level concepts, I still think from the 
 
 # But sometimes "metal up" works better for me
 
-On the other hand, my post ["Roll Your Own, Then Learn a Framework"]({% post_url /articles/2018-08-17-roll-your-own-then-learn-a-framework %}) is basically an advertisement for learning from the metal up. The thing is, when I've learned that way, it's been because a teacher led me to do it. When I'm on my own, I will usually choose to learn from the glass back.
+On the other hand, my post ["Roll Your Own, Then Learn a Framework"]({% post_url /2018-08-17-roll-your-own-then-learn-a-framework %}) is basically an advertisement for learning from the metal up. The thing is, when I've learned that way, it's been because a teacher led me to do it. When I'm on my own, I will usually choose to learn from the glass back.
 
 Perhaps, whichever style you prefer, it's best to learn in your preferred direction most of the time, but occasionally be pushed out of your comfort zone to learn the opposite way. Or perhaps certain topics are best taught from the metal up, while others are better approached from the glass back. Or maybe research would reveal that one way of learning is objectively better than the other and learner preference is irrelevant!
 

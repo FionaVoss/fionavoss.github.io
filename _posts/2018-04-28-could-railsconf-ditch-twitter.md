@@ -7,7 +7,7 @@ tags:
 ---
 A little background on how I microblog: I post [short, untitled notes]({% link notes.html %}) on my own site, and they get automatically posted to [Twitter](https://twitter.com/fionajvoss) and [Micro.blog](https://micro.blog/fiona). Micro.blog is a service that's a lot like Twitter, but it's based on RSS so you can post from your own website. It's also designed in a way that makes it a lot less shouty than Twitter (no likes, retweets, or follower counts).
 
-I do this to have more control over my posts and feel less dependent on Twitter. [Here's how I set it up.]({% post_url /articles/2018-04-01-microblogging-in-jekyll %})
+I do this to have more control over my posts and feel less dependent on Twitter. [Here's how I set it up.]({% post_url /2018-04-01-microblogging-in-jekyll %})
 
 When I got my blog set up for microblogging from my phone, I was looking forward to doing so at RailsConf. However, when I got there, I ended up mostly posting straight from Twitter, for several reasons:
 

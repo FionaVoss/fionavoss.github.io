@@ -3,7 +3,7 @@ layout: page
 title: Home
 redirect_from: articles.html
 ---
-{% assign postsByYearMonth = site.categories['articles'] | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
 {% for yearMonth in postsByYearMonth %}
   <h4>{{ yearMonth.name }}</h4>
     <ul class="related-posts">
