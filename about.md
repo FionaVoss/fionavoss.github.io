@@ -6,7 +6,7 @@ redirect_from: /subscribe/
 description: Information about me and the technologies that power this site.
 ---
 
-I'm a software engineer and computer science student based in San Diego, CA.
+I'm a software engineer at [Redbubble](https://www.redbubble.com/) in San Francisco.
 
 I got my start in the industry at [LEARN Academy](https://www.learnacademy.org/)'s web development bootcamp, which I consider to be [one of the best educational experiences of my life]({% post_url /articles/2018-09-18-best-educational-experiences %}).
 
