@@ -20,7 +20,7 @@ Finally, another annoyance was that I had some formatting issues when trying to 
 
 I've hidden my old microposts on this site, but I haven't removed them. This was easy because I was previously using categories to separate my long and short posts. I just removed the short posts from navigation, so that my [home page]({% link index.html %}) and [topics page]({% link topics.html %}) only list long posts from my `articles` category.
 
-The individual pages for my microposts are [still up]({% post_url /notes/2018-05-16-2380 %}), so any links to them on other websites still work. Unfortunately that means my site is still slower to build than it would be if I got rid of the short posts, but it is faster than it was when I was including them in the index and topics pages.
+The individual pages for my microposts are [still up](/2018/05/16/2380), so any links to them on other websites still work. Unfortunately that means my site is still slower to build than it would be if I got rid of the short posts, but it is faster than it was when I was including them in the index and topics pages.
 
 # How it's (not) affected my writing
 
