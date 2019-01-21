@@ -16,7 +16,7 @@ Right now I'm working on a second bachelor's degree in computer science from [Or
 
 # How to subscribe
 
-You can subscribe via [RSS]({% link feed.xml %}) or follow me on [Micro.blog](https://micro.blog/fiona) or [Twitter](https://twitter.com/fionajvoss) to be notified of new posts.
+You can subscribe via [RSS]({% link feed.xml %}) or follow me on [Micro.blog](https://micro.blog/fiona).
 
 # This blog's stack
 
