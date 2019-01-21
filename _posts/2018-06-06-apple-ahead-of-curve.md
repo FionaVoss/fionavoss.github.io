@@ -3,8 +3,7 @@ layout: post
 date: '2018-06-06T03:07:38.032Z'
 title: 'Apple is too far ahead of the curve'
 permalink: /2018/06/05/11258/
-tags:
-  - 'User Experience'
+tags: Apple
 ---
 Funny how when Apple makes choices I find questionable, I often end up coming around eventually. Case in point: phones getting bigger. I’ve been saying for years that every iPhone after the 5 is too big and if I upgrade I’ll get an SE. But now that the Watch is getting more powerful, I can actually see myself getting one and going more places without my phone, so maybe I won’t mind a bigger phone?
 
