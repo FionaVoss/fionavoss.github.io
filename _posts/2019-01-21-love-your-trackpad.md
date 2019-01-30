@@ -12,7 +12,7 @@ However, I think having the right settings enabled is essential to loving your t
 
 1. Enable tap to click. Tapping is not just easier than clicking, but noticeably faster.
 2. Maximize tracking speed. This way I can move the cursor from one edge of the screen to the other in one flick of a finger. (I think this one is why I haven't taken the time to learn nearly as many keyboard shortcuts as many of my fellow software developers. I've never been bothered by the time it takes to do things with my cursor!)
-3. Enable three-finger drag. Without this, dragging is fatiguing and probably a cause of repetitive strain injury. With it, dragging is effortless.
+3. Enable three-finger drag. Without this, dragging is fatiguing and probably a cause of repetitive strain injury. With it, dragging is effortless. (They really buried this one in macOS Mojave. It's under System Preferences > Accessibility > Mouse & Trackpad > Trackpad Options... > Enable dragging > three finger drag.)
 
 We all have different needs and preferences, but I bet most people would prefer these settings if they turned them on and gave themselves a little time to get used to it. However, I think most people never try them, and maybe don't even know they can.
 
