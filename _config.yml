@@ -27,12 +27,12 @@ timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
 paginate: 10
 paginate_path: /posts/:num/
 header_pages:
