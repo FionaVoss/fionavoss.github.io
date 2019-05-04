@@ -23,5 +23,3 @@ You can subscribe via [RSS]({% link feed.xml %}) or follow me on [Micro.blog](ht
 * [Source code here](https://github.com/FionaVoss/fionavoss.github.io)
 * Built with Jekyll
 * Hosted on GitHub Pages
-* Accepts and displays [Webmentions](https://indieweb.org/Webmention) using [A WebMention Endpoint](https://webmention.herokuapp.com/)
-* Webmentions sent from Twitter using [Bridgy](https://brid.gy/)

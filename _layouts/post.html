@@ -97,28 +97,3 @@ layout: default
 
 <div class="just-comments" data-apikey="7cb35923-5f64-4028-85cf-922641783384"></div>
 <script async src="https://just-comments.com/w.js"></script>
-
-<style>
-  .webmention-mention {
-    padding-left: 85px;
-    position: relative;
-    margin-bottom: 30px;
-    overflow: auto;
-  }
-  .webmention-author img {
-    position: absolute;
-    left: 0;
-    max-width: 70px;
-    max-height: 70px;
-  }
-</style>
-<script id="webmention-hosted">
-  (function () {
-    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
-    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
-    url = url && url[0] ? url[0].href : false;
-    sn.type = "text/javascript"; sn.async = true;
-    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
-    s.parentNode.insertBefore(sn, s);
-  }());
-</script>
