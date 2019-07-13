@@ -12,11 +12,11 @@ I got my start in the industry at [LEARN Academy](https://www.learnacademy.org/)
 
 Before that, I taught English as a second language to adult students from around the world in San Diego and New York City.
 
-Right now I'm working on a second bachelor's degree in computer science from [Oregon State University](http://eecs.oregonstate.edu/online-cs-students). [Read about why here.]({% post_url /2018-07-08-why-back-to-school-for-cs %})
+I maintain [We Pair](https://github.com/FionaVoss/we-pair), a crowd-sourced list of companies that pair program.
 
 # How to subscribe
 
-You can subscribe via [RSS]({% link feed.xml %}) or follow me on [Micro.blog](https://micro.blog/fiona).
+You can subscribe via [RSS]({% link feed.xml %}) or follow me on [Micro.blog](https://micro.blog/fiona) or [Twitter](https://twitter.com/fionajvoss).
 
 # This blog's stack
 
