@@ -6,7 +6,7 @@ redirect_from: /subscribe/
 description: Information about me and the technologies that power this site.
 ---
 
-I'm a software engineer at [Redbubble](https://www.redbubble.com/) in San Francisco.
+I'm a software engineer based in San Francisco. I've worked at [Redbubble](https://www.redbubble.com/) and [Ceatus Media Group](https://www.ceatus.com/).
 
 I got my start in the industry at [LEARN Academy](https://www.learnacademy.org/)'s web development bootcamp, which I consider to be [one of the best educational experiences of my life]({% post_url /2018-09-18-best-educational-experiences %}).
 
