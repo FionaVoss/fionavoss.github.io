@@ -2,6 +2,8 @@
 layout: post
 title: I don't want to work remotely
 date: '2019-07-07 17:20:00 -0700'
+tags:
+ - 'Productivity'
 ---
 This blog post was going to have a long preamble justifying the act of writing about disliking remote work in a world where office-based jobs are far more prevalent and easier to find, but writing is hard, so this is just going to be a numbered list of reasons I don't want to work remotely. I'll save the justification for another post, maybe.
 

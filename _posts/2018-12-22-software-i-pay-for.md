@@ -2,6 +2,8 @@
 layout: post
 title: The software I'm happy to pay for
 date: '2018-12-22 18:12:00 -0800'
+tags:
+ - 'Productivity'
 ---
 There's been a lot of good writing about the merits of paying money for software in the past couple of years, so you've probably heard this argument before. When companies make money from selling your data or attention to third parties, they build their software to maximize the time you spend looking at ads and the amount of data they can extract from you. On the other hand, when companies get money directly from the people who use their software, they design it to provide the best experience for their users.
 
