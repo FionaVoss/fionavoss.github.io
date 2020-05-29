@@ -1,8 +1,9 @@
 ---
 layout: post
 title: My (pre-COVID) job search by the numbers
-date: 2020-05-29 04:07:00 +0000
-tags: Software Engineering
+date: 2020-05-28 21:13:00 -0800
+tags: 
+ - 'Software Engineering'
 
 ---
 I wrote this blog post back in February, shortly after I started my new job at [Alto Pharmacy](https://alto.com). (It’s going great btw—and [we’re hiring](https://alto.com/careers)!)
